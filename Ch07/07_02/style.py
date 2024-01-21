@@ -10,9 +10,10 @@ plt.plot(xs, ys)
 plt.style.available
 
 # %%
-plt.style.use('seaborn-whitegrid')
+plt.style.use('seaborn-v0_8-whitegrid')
 plt.plot(xs, ys)
 
 # %%
 plt.style.use('fivethirtyeight')
 plt.plot(xs, ys)
+# %%

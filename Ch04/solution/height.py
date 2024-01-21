@@ -32,3 +32,4 @@ def add_marker(row):
 
 df.apply(add_marker, axis=1)
 m
+# %%

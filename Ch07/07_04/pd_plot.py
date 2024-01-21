@@ -1,11 +1,7 @@
 # %%
 import pandas as pd
 
-df = pd.read_csv(
-    'stocks.csv',
-    parse_dates=['Date'],
-    index_col='Date'
-)
+df = pd.read_csv('stocks1.csv',parse_dates=['Date'],index_col='Date')
 df.head()
 
 # %%

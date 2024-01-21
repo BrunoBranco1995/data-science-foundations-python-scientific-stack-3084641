@@ -1,3 +1,4 @@
+#%%
 from pathlib import Path
 from urllib.request import urlopen
 import pandas as pd
@@ -23,3 +24,4 @@ for sym in symbols:
 df = pd.concat(dfs)
 df.sort_values('Date', inplace=True)
 df.to_csv(csv_file, index=False)
+# %%

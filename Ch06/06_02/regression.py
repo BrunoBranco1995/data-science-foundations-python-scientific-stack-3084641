@@ -53,6 +53,7 @@ export_graphviz(
     feature_names=cal_housing['feature_names'],
     max_depth=5,
 )
+
 # %%
 !dot -Tsvg -o tree.svg tree.dot
 
@@ -79,3 +80,4 @@ clf.predict(row)
 
 # %%
 y[i]
+# %%

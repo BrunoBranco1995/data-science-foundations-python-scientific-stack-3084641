@@ -1,3 +1,4 @@
+#%%
 """Download 10% of January 2016 taxi data to taxi.csv"""
 
 from urllib.request import urlopen
@@ -29,3 +30,5 @@ if size != payload_size:
 
 duration = int(monotonic() - start)
 print(f'{csv_file}: {size_mb:.1f}MB downloaded in {duration} seconds')
+
+# %%
